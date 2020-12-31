@@ -1,0 +1,42 @@
+//
+//ベースのスタイル
+//
+
+//変数
+$white: #fff;
+$black: #333;
+$gray1: #999;
+$gray2: #ccc;
+$light-gray: #f7f7f1;
+$red: #f35e5e;
+$yellow: #b19833;//bars,viewall,
+$light-yellow: #ebd47a;
+
+
+//ベーススタイル
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-family:'Roboto Condensed','Noto Sans JP',sans-serif;
+    font-size:1.5rem;
+    font-weight:400;
+    line-height:1.75;
+    color:$black;
+    background-color:$light-gray;
+    @media(min-width:769px){
+        font-size:1.6rem;
+        
+    }
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    vertical-align:bottom;
+}
+

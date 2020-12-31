@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+// Google Fontsの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+// Scssファイルの読み込み
+@import "base";
+// 以降はバーシャルファイルを追加したら読み込み記述を追加する
+
+@import "header";
+
+@import "cover";
+
+// @import "section_title";
+
+// @import "container";
+
+// @import "service";
+
+// @import "news";
+
+// @import "sns";
+
+// @import "footer";
+
+// @import "sidebar";
+
+// @import "main";

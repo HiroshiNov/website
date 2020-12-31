@@ -1,0 +1,79 @@
+//
+//カバーのスタイル
+//
+
+//トップページカバー
+.cover{
+    // display:flex;
+    // align-items:center;
+    // justify-content:center;
+    // flex-direction:column;
+    box-sizing: border-box;
+    width:100%;
+    height:59rem;
+    padding-top:5rem;
+    color:$white;
+    @media(min-width:769px){
+        height:50rem;
+    }
+}
+
+.carousel{
+    position:relative;
+}
+
+.cover-title{
+    position:absolute;
+    top:23.6rem;
+    left:calc(50% - (28.7rem/2));
+    margin:0 auto 2rem;
+    font-size:3.2rem;
+    font-weight:700;
+    @media(min-width:769px){
+        font-size:7.2rem;
+    }
+}
+.slick-dots {
+    position:absolute;
+    bottom:1.6rem;
+    li {
+        button::before{
+                color:$white;
+                opacity:1;
+        }
+        &.slick-active button::before{
+                color:$yellow;
+                opacity:1;
+        }
+    }
+}
+.cover-discription{
+    position:absolute;
+    top:28rem;
+    left:calc(50% - (25.4rem/2));    font-size:2.4rem;
+    font-weight:500;
+    @media(min-width:769px){
+        font-size:2rem;
+    }
+}
+.slick-arrow{
+    display:none;
+}
+//サブカバー
+.sub-cover{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height:10.6rem;
+    padding-top:6rem;
+    color:$white;
+    background-image:url("../images/cover.jpg");
+    background-size:cover;
+    background-position:center;
+    
+}
+.sub-cover-title{
+    font-size:3.2rem;
+    margin:0;
+}
